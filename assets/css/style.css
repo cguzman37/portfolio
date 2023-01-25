@@ -1,3 +1,5 @@
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -46,7 +48,78 @@ header {
     text-align: left;
     padding-left: 10%;
   }
-  section{
-    flex: 1 1 0;
-    padding-left: 10%;
+ .flex-section{
+  margin-top: 10px;
+  display: flex;
+ }
+ .right-column{
+  flex-basis: 70%;
+ }
+ .right-column div{
+  
+  margin-left: 10%;
+ }
+.left-column{
+  flex-basis: 30%;
+  text-align: center;
+  border-right: solid 3px;
+  margin-bottom: 10px;
+  
+}
+.left-column h2{
+  margin:auto;
+}
+
+.img-div{
+  max-width: 100%;
+}
+#sub-image-div{
+  display: flex;
+  margin: 0;
+}
+.main-img-div img{
+  max-width:400px;
+}
+#sub-image-div img{
+  max-width: 200px;
+}
+#sub-image-div2 img{
+  max-width: 200px;
+}
+#sub-image-div2{
+  display: flex;
+  margin: 0;
+}
+
+  .footer{
+
+     min-width: 100px;
+      color: #b4c5e4;
+      font-weight:lighter;
+      text-decoration-thickness: 2px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      
   }
+  .footer-widgets .widget_nav_menu li {
+    display: inline-block;
+    
+  }
+  /* <section class="flex-section">
+  <article class="left-column">
+      <h2>About Me</h2>
+  </article>
+  <article class="right-column">
+      <div class="main-img-div img-div">
+        <img src="./assets/images/beach picture.jpeg" alt="beach picture">
+      </div>
+      <div class="img-div">
+          <div id="sub-image-div">
+              <img src="./assets/images/beach picture.jpeg" alt="beach picture">
+              <img src="./assets/images/beach picture.jpeg" alt="beach picture">
+          </div>
+          <div id="sub-image-div2">
+              <img src="./assets/images/beach picture.jpeg" alt="beach picture">
+              <img src="./assets/images/beach picture.jpeg" alt="beach picture">
+          </div>
+      </div>
+  </article> */
