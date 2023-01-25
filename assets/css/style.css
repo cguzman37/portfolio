@@ -19,7 +19,7 @@ header {
     color:#3c3744;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  nav ul {
+  .nav1 ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
@@ -79,31 +79,59 @@ header {
 }
 .main-img-div img{
   max-width:400px;
+  border: 5px solid #b4c5e4;
+  margin: 5px
+
 }
 #sub-image-div img{
   max-width: 200px;
+  border: 5px solid #b4c5e4;
+  margin: 5px
+
 }
 #sub-image-div2 img{
   max-width: 200px;
+  border: 5px solid #b4c5e4;
+  margin: 5px
+  ;
 }
 #sub-image-div2{
   display: flex;
   margin: 0;
 }
+.footer2 h2{
+  margin: auto;
+}
+ .footer2{
 
-  .footer{
-
-     min-width: 100px;
-      color: #b4c5e4;
+     min-width: 300px;
+      
       font-weight:lighter;
       text-decoration-thickness: 2px;
       font-family:Georgia, 'Times New Roman', Times, serif;
-      
+      bottom: 0;
+      margin-bottom:  10px;
+      position: fixed;
+      border-right: solid 3px;
+      text-align: center;
+    justify-content: space-between;
+    min-width: 300px;
+    align-items: center;
   }
-  .footer-widgets .widget_nav_menu li {
-    display: inline-block;
+  .nav2{
+    align-items: right;
+    display: flex;
     
   }
+  
+
+
+
+  .footer-widgets .widget_nav_menu li {
+    display: flex;
+    
+  }
+
   /* <section class="flex-section">
   <article class="left-column">
       <h2>About Me</h2>
